@@ -1,3 +1,28 @@
+App component:   
+
+  Dynamic-Part: (this is the upper section of the page, which is dynamic based on the click of button). 
+  
+  it contains state of the image (passed down as props to Left Child) and state of text(passed down as prop to Right Child):
+
+  
+   Left: (upper left component, at lower width this is the topmost component)          
+        <links> ,  <Carousel Button>:(shown only on smaller width)                
+        <image>   
+    
+   Right: (upper right component, at lower width this is the 2nd top component)           
+          <h1>, 
+           <p>,
+           <link>,          
+          <Carousel Button>:(shown only on smaller width)
+   
+  
+  Static-Part: (this is lower section of page, which is static)      
+        <image>      
+        <text>       
+        <image>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
