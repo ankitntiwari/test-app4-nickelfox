@@ -1,0 +1,11 @@
+.dynamic-part {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+@media only screen and (max-width: 780px) {
+  .dynamic-part {
+    display: flex;
+    flex-direction: column;
+  }
+}

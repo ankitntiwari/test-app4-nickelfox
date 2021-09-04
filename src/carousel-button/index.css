@@ -1,0 +1,19 @@
+.carousel-buttons button {
+  background-color: #000;
+  border: none;
+  height: max(4vw, 40px);
+  width: 4.5vw;
+  color: #fefefe;
+  cursor: pointer;
+  outline: none;
+}
+.carousel-buttons button:hover {
+  background-color: rgb(74, 73, 73);
+}
+@media only screen and (max-width: 780px) {
+  .carousel-buttons button {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+  }
+}

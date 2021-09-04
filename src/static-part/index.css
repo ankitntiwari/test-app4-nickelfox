@@ -1,0 +1,63 @@
+.static-part {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.static-part-image {
+  width: 30vw;
+}
+.static-part-image img {
+  width: 30vw;
+}
+
+.static-part-text {
+  width: 40vw;
+}
+.static-part-text-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: auto;
+  margin-top: 12%;
+}
+
+.static-part-text-content h5 {
+  font-size: max(10px, 1.2vw);
+  letter-spacing: 5px;
+}
+.static-part-text-content p {
+  font-size: max(10px, 1vw);
+  opacity: 0.5;
+}
+@media only screen and (max-width: 780px) {
+  .static-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .static-part-image {
+    width: 100vw;
+  }
+  .static-part-image img {
+    width: 100vw;
+  }
+
+  .static-part-text {
+    width: 100vw;
+    height: 35vh;
+  }
+  .static-part-text-content {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 85vw;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .static-part-text-content h5 {
+    font-size: max(15px, 1.2vw);
+    letter-spacing: 5px;
+  }
+  .static-part-text-content p {
+    font-size: max(12px, 1vw);
+    opacity: 0.5;
+  }
+}
